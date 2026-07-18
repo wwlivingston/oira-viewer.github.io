@@ -1,0 +1,35 @@
+{
+  "name": "oira-viewer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Static viewer for OIRA regulatory reviews, powered by nightly snapshots of reginfo.gov XML feeds.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "fetch:daily": "node scripts/fetch-daily.mjs",
+    "fetch:year": "node scripts/fetch-year.mjs",
+    "fetch:fr-year": "node scripts/fetch-fr-year.mjs",
+    "fetch:fr-by-rin": "node scripts/fetch-fr-by-rin.mjs",
+    "build:fr-index": "node scripts/build-fr-index.mjs",
+    "build:fuzzy-matches": "node scripts/build-fuzzy-matches.mjs",
+    "match-stats": "node scripts/match-stats.mjs",
+    "inspect-rin": "node scripts/inspect-rin.mjs",
+    "debug-fr-doc": "node scripts/debug-fr-doc.mjs",
+    "backfill:oira": "for y in $(seq 2017 $(date +%Y)); do node scripts/fetch-year.mjs $y || echo skip $y; done",
+    "backfill:fr": "for y in $(seq 2017 $(date +%Y)); do node scripts/fetch-fr-year.mjs $y || echo skip $y; done && node scripts/build-fr-index.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "@xmldom/xmldom": "^0.9.0",
+    "vite": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

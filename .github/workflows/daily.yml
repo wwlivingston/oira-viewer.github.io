@@ -1,0 +1,57 @@
+name: Daily reginfo snapshot
+
+on:
+  schedule:
+    # 12:00 UTC = 08:00 EDT / 07:00 EST. Runs once a day, comfortably after the
+    # Federal Register's 06:00 ET publication window so we catch yesterday's docs.
+    - cron: "0 12 * * *"
+  workflow_dispatch: # allow manual triggering from the Actions tab
+
+concurrency:
+  group: daily-snapshot
+  cancel-in-progress: false
+
+permissions:
+  contents: write # needed to commit the snapshot
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install
+        run: npm ci
+
+      - name: Fetch daily snapshot
+        run: npm run fetch:daily
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet public/data; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git add public/data
+          DATE=$(date -u +"%Y-%m-%d")
+          git commit -m "data: nightly snapshot ${DATE}"
+          git push
+
+      # Optional: fire an alert if the fetch step failed. Uncomment and
+      # configure a Slack/Discord/email webhook of your choice.
+      # - name: Notify on failure
+      #   if: failure()
+      #   uses: slackapi/slack-github-action@v1
+      #   with:
+      #     payload: '{"text":"OIRA daily snapshot failed. Check the Actions log."}'
+      #   env:
+      #     SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}

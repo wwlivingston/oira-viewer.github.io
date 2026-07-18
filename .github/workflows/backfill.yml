@@ -1,0 +1,106 @@
+name: Backfill historical data
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to backfill"
+        required: true
+        default: "all"
+        type: choice
+        options:
+          - all              # OIRA + FR for every year START..present
+          - oira-all         # OIRA yearly XMLs for START..present
+          - fr-all           # FR yearly docs for START..present
+          - oira-year        # single OIRA year (specify below)
+          - fr-year          # single FR year (specify below)
+      year:
+        description: "Calendar year (used for *-year modes). Ignored for *-all modes."
+        required: false
+        default: ""
+      start_year:
+        description: "Starting year for *-all modes. Default 2017."
+        required: false
+        default: "2017"
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    # FR backfill (~90 pages/yr × 30 yrs × 250ms) runs ~15 min. Give room.
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - run: npm ci
+
+      - name: Backfill OIRA (all years)
+        if: ${{ github.event.inputs.mode == 'all' || github.event.inputs.mode == 'oira-all' }}
+        env:
+          START: ${{ github.event.inputs.start_year }}
+        run: |
+          END=$(date +%Y)
+          for y in $(seq "$START" "$END"); do
+            echo "=== OIRA $y ==="
+            node scripts/fetch-year.mjs "$y" || echo "  ($y skipped)"
+            sleep 2
+          done
+
+      - name: Backfill FR (all years)
+        if: ${{ github.event.inputs.mode == 'all' || github.event.inputs.mode == 'fr-all' }}
+        env:
+          START: ${{ github.event.inputs.start_year }}
+        run: |
+          END=$(date +%Y)
+          for y in $(seq "$START" "$END"); do
+            echo "=== FR $y ==="
+            node scripts/fetch-fr-year.mjs "$y" || echo "  ($y skipped)"
+            sleep 3
+          done
+
+      - name: Backfill single OIRA year
+        if: ${{ github.event.inputs.mode == 'oira-year' }}
+        run: node scripts/fetch-year.mjs "${{ github.event.inputs.year }}"
+
+      - name: Backfill single FR year
+        if: ${{ github.event.inputs.mode == 'fr-year' }}
+        run: node scripts/fetch-fr-year.mjs "${{ github.event.inputs.year }}"
+
+      - name: Rebuild FR index
+        if: ${{ github.event.inputs.mode != 'oira-all' && github.event.inputs.mode != 'oira-year' }}
+        run: node scripts/build-fr-index.mjs
+
+      - name: Enrich with authoritative RIN-scoped fetches
+        # After the fast date-range backfill, run RIN-scoped fetches to fill in
+        # the RIN linkage gaps the listing endpoint sometimes leaves. Full run
+        # takes ~19 min for ~4500 RINs at 250ms each.
+        if: ${{ github.event.inputs.mode != 'oira-all' && github.event.inputs.mode != 'oira-year' }}
+        run: node scripts/fetch-fr-by-rin.mjs
+
+      - name: Rebuild FR index with RIN-enriched data
+        if: ${{ github.event.inputs.mode != 'oira-all' && github.event.inputs.mode != 'oira-year' }}
+        run: node scripts/build-fr-index.mjs
+
+      - name: Rebuild fuzzy matches
+        # Any change to OIRA or FR data can shift fuzzy matches, so run it
+        # unconditionally at the end of any backfill.
+        run: node scripts/build-fuzzy-matches.mjs
+
+      - name: Commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet public/data; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git add public/data
+          git commit -m "data: backfill (${{ github.event.inputs.mode }})"
+          git push
