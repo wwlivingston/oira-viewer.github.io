@@ -106,7 +106,7 @@ export default function App() {
   const [sortKey, setSortKey] = useState("DATE_COMPLETED");
   const [sortDir, setSortDir] = useState("desc");
   const [expanded, setExpanded] = useState(null);
-  const [tab, setTab] = useState("table");
+  const [tab, setTab] = useState("dashboard");
   const [dashAgys, setDashAgys] = useState([]);
   const [metric, setMetric] = useState("both");
   const [dateFrom, setDateFrom] = useState("");
