@@ -42,9 +42,17 @@ jobs:
           fi
           git add public/data
           DATE=$(date -u +"%Y-%m-%d")
+          git add public/data
+          DATE=$(date -u +"%Y-%m-%d")
           git commit -m "data: nightly snapshot ${DATE}"
-          git push
-
+          # Rebase onto any concurrent commits before pushing, and retry a
+          # couple of times if the remote moved again while we were rebasing.
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            echo "push attempt $i failed, retrying..."
+            sleep 5
+          done
+          exit 1
       # Optional: fire an alert if the fetch step failed. Uncomment and
       # configure a Slack/Discord/email webhook of your choice.
       # - name: Notify on failure
