@@ -1,7 +1,7 @@
 {
   "source": "EO_RULE_COMPLETED_30_DAYS.xml",
-  "generated_at": "2026-07-20T17:09:35.338Z",
-  "count": 83,
+  "generated_at": "2026-07-21T14:40:28.775Z",
+  "count": 85,
   "rules": [
     {
       "AGENCY_CODE": "0503",
@@ -671,6 +671,29 @@
       "DATE_PUBLISHED": ""
     },
     {
+      "AGENCY_CODE": "1400",
+      "RIN": "1400-AF23",
+      "TITLE": "Exchange Visitor Rules: Records",
+      "STAGE": "Proposed Rule",
+      "ECONOMICALLY_SIGNIFICANT": "No",
+      "DATE_RECEIVED": "2026-03-10",
+      "LEGAL_DEADLINE": "None",
+      "DATE_COMPLETED": "2026-07-17",
+      "DECISION": "Consistent with Change",
+      "MAJOR": "No",
+      "HOMELAND_SECURITY": "No",
+      "INTERNATIONAL_IMPACTS": "Yes",
+      "HEALTH_CARE_ACT": "No",
+      "DODD_FRANK_ACT": "No",
+      "PANDEMIC_RESPONSE": "No",
+      "UNFUNDED_MANDATES": "No",
+      "FEDERALISM_IMPLICATIONS": "No",
+      "TCJA": "No",
+      "REGULATORY_FLEXIBILITY_ANALYSIS": "No",
+      "SMALL_ENTITIES_AFFECTED": "Businesses",
+      "DATE_PUBLISHED": ""
+    },
+    {
       "AGENCY_CODE": "1505",
       "RIN": "1505-AC91",
       "TITLE": "Rescinding Portions of Department of Justice Title VI Regulations To Conform More Closely With the Statutory Text and To Implement Executive Order 14281",
@@ -990,6 +1013,29 @@
       "TCJA": "No",
       "REGULATORY_FLEXIBILITY_ANALYSIS": "Undetermined",
       "SMALL_ENTITIES_AFFECTED": "",
+      "DATE_PUBLISHED": ""
+    },
+    {
+      "AGENCY_CODE": "2120",
+      "RIN": "2120-AM51",
+      "TITLE": "Waiver of Specified Statutory Requirements for Commercial Space Launch and Reentry Actions",
+      "STAGE": "Proposed Rule",
+      "ECONOMICALLY_SIGNIFICANT": "No",
+      "DATE_RECEIVED": "2026-07-06",
+      "LEGAL_DEADLINE": "None",
+      "DATE_COMPLETED": "2026-07-20",
+      "DECISION": "Consistent with Change",
+      "MAJOR": "No",
+      "HOMELAND_SECURITY": "No",
+      "INTERNATIONAL_IMPACTS": "No",
+      "HEALTH_CARE_ACT": "No",
+      "DODD_FRANK_ACT": "No",
+      "PANDEMIC_RESPONSE": "No",
+      "UNFUNDED_MANDATES": "No",
+      "FEDERALISM_IMPLICATIONS": "No",
+      "TCJA": "No",
+      "REGULATORY_FLEXIBILITY_ANALYSIS": "No",
+      "SMALL_ENTITIES_AFFECTED": "No",
       "DATE_PUBLISHED": ""
     },
     {
