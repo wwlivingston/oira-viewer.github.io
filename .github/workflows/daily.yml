@@ -53,6 +53,16 @@ jobs:
             sleep 5
           done
           exit 1
+          
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          force_orphan: true
       # Optional: fire an alert if the fetch step failed. Uncomment and
       # configure a Slack/Discord/email webhook of your choice.
       # - name: Notify on failure
