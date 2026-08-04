@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-08-03T18:26:42.362Z",
+  "generated_at": "2026-08-04T18:14:51.129Z",
   "sources": {
     "fr-index": {
       "file": "fr-index.json",
-      "rin_count": 6261,
-      "doc_count": 14561,
-      "updated_at": "2026-08-03T18:26:42.362Z"
+      "rin_count": 6262,
+      "doc_count": 14565,
+      "updated_at": "2026-08-04T18:14:51.129Z"
     },
     "fr-by-rin": {
       "file": "fr-by-rin.json",
       "rin_count": 3295,
       "doc_count": 5943,
-      "updated_at": "2026-08-03T18:26:45.435Z"
+      "updated_at": "2026-08-04T18:14:52.858Z"
     },
     "fr-fuzzy-matches": {
       "file": "fr-fuzzy-matches.json",
-      "match_count": 70,
-      "updated_at": "2026-08-03T18:26:46.033Z"
+      "match_count": 75,
+      "updated_at": "2026-08-04T18:14:53.458Z"
     },
     "under-review": {
       "file": "under-review.json",
-      "count": 129,
-      "updated_at": "2026-08-03T18:26:42.362Z"
+      "count": 133,
+      "updated_at": "2026-08-04T18:14:51.129Z"
     },
     "completed-ytd": {
       "file": "completed-ytd.json",
       "count": 507,
-      "updated_at": "2026-08-03T18:26:42.362Z"
+      "updated_at": "2026-08-04T18:14:51.129Z"
     },
     "completed-30d": {
       "file": "completed-30d.json",
       "count": 87,
-      "updated_at": "2026-08-03T18:26:42.362Z"
+      "updated_at": "2026-08-04T18:14:51.129Z"
     },
     "agencies": {
       "file": "agencies.json",
       "count": 448,
-      "updated_at": "2026-08-03T18:26:42.362Z"
+      "updated_at": "2026-08-04T18:14:51.129Z"
     }
   },
   "historical": {
@@ -134,8 +134,8 @@
     },
     "2026": {
       "file": "fr-2026.json",
-      "count": 1457,
-      "updated_at": "2026-08-01T15:42:53.011Z"
+      "count": 1474,
+      "updated_at": "2026-08-04T18:14:51.129Z"
     }
   }
 }
