@@ -1,7 +1,7 @@
 {
   "source": "EO_RULE_COMPLETED_YTD.xml",
-  "generated_at": "2026-08-18T12:53:53.175Z",
-  "count": 546,
+  "generated_at": "2026-08-19T12:54:01.612Z",
+  "count": 547,
   "rules": [
     {
       "AGENCY_CODE": "0331",
@@ -11961,6 +11961,29 @@
       "TCJA": "No",
       "REGULATORY_FLEXIBILITY_ANALYSIS": "Undetermined",
       "SMALL_ENTITIES_AFFECTED": "No",
+      "DATE_PUBLISHED": ""
+    },
+    {
+      "AGENCY_CODE": "3235",
+      "RIN": "3235-AN38",
+      "TITLE": "Crypto Assets",
+      "STAGE": "Proposed Rule",
+      "ECONOMICALLY_SIGNIFICANT": "No",
+      "DATE_RECEIVED": "2026-03-20",
+      "LEGAL_DEADLINE": "None",
+      "DATE_COMPLETED": "2026-08-18",
+      "DECISION": "Consistent with Change",
+      "MAJOR": "",
+      "HOMELAND_SECURITY": "No",
+      "INTERNATIONAL_IMPACTS": "No",
+      "HEALTH_CARE_ACT": "No",
+      "DODD_FRANK_ACT": "No",
+      "PANDEMIC_RESPONSE": "No",
+      "UNFUNDED_MANDATES": "No",
+      "FEDERALISM_IMPLICATIONS": "No",
+      "TCJA": "No",
+      "REGULATORY_FLEXIBILITY_ANALYSIS": "Businesses",
+      "SMALL_ENTITIES_AFFECTED": "",
       "DATE_PUBLISHED": ""
     },
     {
