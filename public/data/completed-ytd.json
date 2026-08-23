@@ -1,7 +1,7 @@
 {
   "source": "EO_RULE_COMPLETED_YTD.xml",
-  "generated_at": "2026-08-22T12:46:16.064Z",
-  "count": 554,
+  "generated_at": "2026-08-23T12:47:17.017Z",
+  "count": 555,
   "rules": [
     {
       "AGENCY_CODE": "0331",
@@ -12098,6 +12098,29 @@
       "FEDERALISM_IMPLICATIONS": "No",
       "TCJA": "No",
       "REGULATORY_FLEXIBILITY_ANALYSIS": "No",
+      "SMALL_ENTITIES_AFFECTED": "No",
+      "DATE_PUBLISHED": ""
+    },
+    {
+      "AGENCY_CODE": "3210",
+      "RIN": "3210-AA00",
+      "TITLE": "Conditions on the Preparation of Ballot Mail for Federal Elections",
+      "STAGE": "Final Rule",
+      "ECONOMICALLY_SIGNIFICANT": "No",
+      "DATE_RECEIVED": "2026-07-27",
+      "LEGAL_DEADLINE": "None",
+      "DATE_COMPLETED": "2026-08-21",
+      "DECISION": "Consistent with Change",
+      "MAJOR": "No",
+      "HOMELAND_SECURITY": "No",
+      "INTERNATIONAL_IMPACTS": "No",
+      "HEALTH_CARE_ACT": "No",
+      "DODD_FRANK_ACT": "No",
+      "PANDEMIC_RESPONSE": "No",
+      "UNFUNDED_MANDATES": "No",
+      "FEDERALISM_IMPLICATIONS": "No",
+      "TCJA": "No",
+      "REGULATORY_FLEXIBILITY_ANALYSIS": "Undetermined",
       "SMALL_ENTITIES_AFFECTED": "No",
       "DATE_PUBLISHED": ""
     },

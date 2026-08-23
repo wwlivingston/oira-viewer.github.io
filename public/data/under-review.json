@@ -1,6 +1,6 @@
 {
   "source": "EO_RULES_UNDER_REVIEW.xml",
-  "generated_at": "2026-08-22T12:46:16.064Z",
+  "generated_at": "2026-08-23T12:47:17.017Z",
   "count": 147,
   "rules": [
     {
@@ -3178,13 +3178,13 @@
       "DATE_PUBLISHED": ""
     },
     {
-      "AGENCY_CODE": "3210",
-      "RIN": "3210-AA00",
-      "TITLE": "Conditions on the Preparation of Ballot Mail for Federal Elections",
-      "STAGE": "Final Rule",
+      "AGENCY_CODE": "3206",
+      "RIN": "3206-AP00",
+      "TITLE": "Implementation of the Administrative False Claims Act",
+      "STAGE": "Proposed Rule",
       "ECONOMICALLY_SIGNIFICANT": "No",
-      "DATE_RECEIVED": "2026-07-27",
-      "LEGAL_DEADLINE": "None",
+      "DATE_RECEIVED": "2026-08-21",
+      "LEGAL_DEADLINE": "Statutory",
       "DATE_COMPLETED": "",
       "DECISION": "",
       "MAJOR": "",
