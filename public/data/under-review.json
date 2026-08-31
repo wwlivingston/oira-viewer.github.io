@@ -1,6 +1,6 @@
 {
   "source": "EO_RULES_UNDER_REVIEW.xml",
-  "generated_at": "2026-08-30T16:22:01.261Z",
+  "generated_at": "2026-08-31T18:58:05.487Z",
   "count": 153,
   "rules": [
     {
@@ -3410,7 +3410,7 @@
     {
       "AGENCY_CODE": "3235",
       "RIN": "3235-AN47",
-      "TITLE": "Shareholder Proposal Modernization: we request the title appear on reginfo.gov as “Rescission of Rule 14a-8’s Federal Regulation of Shareholder Proposals and Amendments to Rule 14a-4.”",
+      "TITLE": "Rescission of Rule 14a-8’s Federal Regulation of Shareholder Proposals and Amendments to Rule 14a-4.",
       "STAGE": "Proposed Rule",
       "ECONOMICALLY_SIGNIFICANT": "No",
       "DATE_RECEIVED": "2026-08-28",
@@ -3456,7 +3456,7 @@
     {
       "AGENCY_CODE": "3235",
       "RIN": "3235-AN63",
-      "TITLE": "Amendments to Certain Proxy Rules: we request the title appear on reginfo.gov as “Proxy Solicitation Modernization.”",
+      "TITLE": "Proxy Solicitation Modernization.",
       "STAGE": "Proposed Rule",
       "ECONOMICALLY_SIGNIFICANT": "No",
       "DATE_RECEIVED": "2026-08-28",
