@@ -1,7 +1,7 @@
 {
   "source": "EO_RULE_COMPLETED_30_DAYS.xml",
-  "generated_at": "2026-09-01T16:19:10.242Z",
-  "count": 77,
+  "generated_at": "2026-09-02T16:16:37.274Z",
+  "count": 78,
   "rules": [
     {
       "AGENCY_CODE": "0584",
@@ -392,6 +392,29 @@
       "TCJA": "No",
       "REGULATORY_FLEXIBILITY_ANALYSIS": "No",
       "SMALL_ENTITIES_AFFECTED": "",
+      "DATE_PUBLISHED": ""
+    },
+    {
+      "AGENCY_CODE": "0970",
+      "RIN": "0970-AD48",
+      "TITLE": "Reducing Bureaucracy and Burden for the Repatriation of Mentally Ill Nationals",
+      "STAGE": "Proposed Rule",
+      "ECONOMICALLY_SIGNIFICANT": "No",
+      "DATE_RECEIVED": "2026-08-20",
+      "LEGAL_DEADLINE": "None",
+      "DATE_COMPLETED": "2026-09-01",
+      "DECISION": "Consistent with Change",
+      "MAJOR": "No",
+      "HOMELAND_SECURITY": "No",
+      "INTERNATIONAL_IMPACTS": "No",
+      "HEALTH_CARE_ACT": "No",
+      "DODD_FRANK_ACT": "No",
+      "PANDEMIC_RESPONSE": "No",
+      "UNFUNDED_MANDATES": "No",
+      "FEDERALISM_IMPLICATIONS": "No",
+      "TCJA": "No",
+      "REGULATORY_FLEXIBILITY_ANALYSIS": "No",
+      "SMALL_ENTITIES_AFFECTED": "No",
       "DATE_PUBLISHED": ""
     },
     {
