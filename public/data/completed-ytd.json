@@ -1,7 +1,7 @@
 {
   "source": "EO_RULE_COMPLETED_YTD.xml",
-  "generated_at": "2026-09-15T16:36:54.845Z",
-  "count": 611,
+  "generated_at": "2026-09-16T16:29:56.502Z",
+  "count": 613,
   "rules": [
     {
       "AGENCY_CODE": "0331",
@@ -6717,7 +6717,7 @@
       "TCJA": "No",
       "REGULATORY_FLEXIBILITY_ANALYSIS": "Undetermined",
       "SMALL_ENTITIES_AFFECTED": "Businesses",
-      "DATE_PUBLISHED": ""
+      "DATE_PUBLISHED": "2026-04-29"
     },
     {
       "AGENCY_CODE": "1557",
@@ -6740,7 +6740,7 @@
       "TCJA": "No",
       "REGULATORY_FLEXIBILITY_ANALYSIS": "No",
       "SMALL_ENTITIES_AFFECTED": "Businesses",
-      "DATE_PUBLISHED": ""
+      "DATE_PUBLISHED": "2026-04-10"
     },
     {
       "AGENCY_CODE": "1557",
@@ -6763,7 +6763,7 @@
       "TCJA": "No",
       "REGULATORY_FLEXIBILITY_ANALYSIS": "Undetermined",
       "SMALL_ENTITIES_AFFECTED": "Businesses",
-      "DATE_PUBLISHED": ""
+      "DATE_PUBLISHED": "2026-09-01"
     },
     {
       "AGENCY_CODE": "1557",
@@ -13391,6 +13391,29 @@
     },
     {
       "AGENCY_CODE": "3235",
+      "RIN": "3235-AN47",
+      "TITLE": "Rescission of Rule 14a-8’s Federal Regulation of Shareholder Proposals and Amendments to Rule 14a-4.",
+      "STAGE": "Proposed Rule",
+      "ECONOMICALLY_SIGNIFICANT": "No",
+      "DATE_RECEIVED": "2026-08-28",
+      "LEGAL_DEADLINE": "None",
+      "DATE_COMPLETED": "2026-09-15",
+      "DECISION": "Consistent with Change",
+      "MAJOR": "Yes",
+      "HOMELAND_SECURITY": "No",
+      "INTERNATIONAL_IMPACTS": "No",
+      "HEALTH_CARE_ACT": "No",
+      "DODD_FRANK_ACT": "No",
+      "PANDEMIC_RESPONSE": "No",
+      "UNFUNDED_MANDATES": "No",
+      "FEDERALISM_IMPLICATIONS": "No",
+      "TCJA": "No",
+      "REGULATORY_FLEXIBILITY_ANALYSIS": "Businesses",
+      "SMALL_ENTITIES_AFFECTED": "",
+      "DATE_PUBLISHED": ""
+    },
+    {
+      "AGENCY_CODE": "3235",
       "RIN": "3235-AN50",
       "TITLE": "Amendments to the Trade-Through Rule",
       "STAGE": "Proposed Rule",
@@ -13503,6 +13526,29 @@
       "REGULATORY_FLEXIBILITY_ANALYSIS": "Undetermined",
       "SMALL_ENTITIES_AFFECTED": "",
       "DATE_PUBLISHED": "2026-05-07"
+    },
+    {
+      "AGENCY_CODE": "3235",
+      "RIN": "3235-AN63",
+      "TITLE": "Proxy Solicitation Modernization.",
+      "STAGE": "Proposed Rule",
+      "ECONOMICALLY_SIGNIFICANT": "No",
+      "DATE_RECEIVED": "2026-08-28",
+      "LEGAL_DEADLINE": "None",
+      "DATE_COMPLETED": "2026-09-15",
+      "DECISION": "Consistent with Change",
+      "MAJOR": "",
+      "HOMELAND_SECURITY": "No",
+      "INTERNATIONAL_IMPACTS": "No",
+      "HEALTH_CARE_ACT": "No",
+      "DODD_FRANK_ACT": "No",
+      "PANDEMIC_RESPONSE": "No",
+      "UNFUNDED_MANDATES": "No",
+      "FEDERALISM_IMPLICATIONS": "No",
+      "TCJA": "No",
+      "REGULATORY_FLEXIBILITY_ANALYSIS": "Undetermined",
+      "SMALL_ENTITIES_AFFECTED": "",
+      "DATE_PUBLISHED": ""
     },
     {
       "AGENCY_CODE": "3235",
