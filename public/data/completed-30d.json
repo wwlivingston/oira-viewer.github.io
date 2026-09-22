@@ -1,7 +1,7 @@
 {
   "source": "EO_RULE_COMPLETED_30_DAYS.xml",
-  "generated_at": "2026-09-21T18:03:13.817Z",
-  "count": 68,
+  "generated_at": "2026-09-22T16:36:56.743Z",
+  "count": 72,
   "rules": [
     {
       "AGENCY_CODE": "0503",
@@ -211,6 +211,29 @@
       "DATE_PUBLISHED": ""
     },
     {
+      "AGENCY_CODE": "0910",
+      "RIN": "0910-ZD79",
+      "TITLE": "Improving Patient Access to Deceased Donor Islet Cells and Cell Products; Request for Information",
+      "STAGE": "Notice",
+      "ECONOMICALLY_SIGNIFICANT": "No",
+      "DATE_RECEIVED": "2026-09-15",
+      "LEGAL_DEADLINE": "None",
+      "DATE_COMPLETED": "2026-09-21",
+      "DECISION": "Consistent without Change",
+      "MAJOR": "No",
+      "HOMELAND_SECURITY": "No",
+      "INTERNATIONAL_IMPACTS": "No",
+      "HEALTH_CARE_ACT": "No",
+      "DODD_FRANK_ACT": "No",
+      "PANDEMIC_RESPONSE": "No",
+      "UNFUNDED_MANDATES": "No",
+      "FEDERALISM_IMPLICATIONS": "No",
+      "TCJA": "No",
+      "REGULATORY_FLEXIBILITY_ANALYSIS": "No",
+      "SMALL_ENTITIES_AFFECTED": "",
+      "DATE_PUBLISHED": ""
+    },
+    {
       "AGENCY_CODE": "0925",
       "RIN": "0925-ZA18",
       "TITLE": "Request for Information (RFI): Inviting Comments and Suggestions on the National Institute of Nursing Research (NINR) Strategic Plan for Fiscal Years 2027-2031",
@@ -299,6 +322,29 @@
       "FEDERALISM_IMPLICATIONS": "No",
       "TCJA": "No",
       "REGULATORY_FLEXIBILITY_ANALYSIS": "No",
+      "SMALL_ENTITIES_AFFECTED": "",
+      "DATE_PUBLISHED": ""
+    },
+    {
+      "AGENCY_CODE": "0938",
+      "RIN": "0938-AW26",
+      "TITLE": "Patient Protection and Affordable Care Act; Temporary Moratorium on Certain Agent and Broker Participation in the Exchanges (CMS-9872)",
+      "STAGE": "Interim Final Rule",
+      "ECONOMICALLY_SIGNIFICANT": "No",
+      "DATE_RECEIVED": "2026-09-16",
+      "LEGAL_DEADLINE": "None",
+      "DATE_COMPLETED": "2026-09-21",
+      "DECISION": "Consistent with Change",
+      "MAJOR": "Yes",
+      "HOMELAND_SECURITY": "No",
+      "INTERNATIONAL_IMPACTS": "No",
+      "HEALTH_CARE_ACT": "Yes",
+      "DODD_FRANK_ACT": "No",
+      "PANDEMIC_RESPONSE": "No",
+      "UNFUNDED_MANDATES": "No",
+      "FEDERALISM_IMPLICATIONS": "No",
+      "TCJA": "No",
+      "REGULATORY_FLEXIBILITY_ANALYSIS": "Undetermined",
       "SMALL_ENTITIES_AFFECTED": "",
       "DATE_PUBLISHED": ""
     },
@@ -487,6 +533,29 @@
       "DATE_PUBLISHED": ""
     },
     {
+      "AGENCY_CODE": "1024",
+      "RIN": "1024-AE96",
+      "TITLE": "Alaska; Hunting and Trapping in National Preserves",
+      "STAGE": "Final Rule",
+      "ECONOMICALLY_SIGNIFICANT": "No",
+      "DATE_RECEIVED": "2026-08-07",
+      "LEGAL_DEADLINE": "None",
+      "DATE_COMPLETED": "2026-09-21",
+      "DECISION": "Consistent with Change",
+      "MAJOR": "No",
+      "HOMELAND_SECURITY": "No",
+      "INTERNATIONAL_IMPACTS": "No",
+      "HEALTH_CARE_ACT": "No",
+      "DODD_FRANK_ACT": "No",
+      "PANDEMIC_RESPONSE": "No",
+      "UNFUNDED_MANDATES": "No",
+      "FEDERALISM_IMPLICATIONS": "No",
+      "TCJA": "No",
+      "REGULATORY_FLEXIBILITY_ANALYSIS": "Undetermined",
+      "SMALL_ENTITIES_AFFECTED": "",
+      "DATE_PUBLISHED": ""
+    },
+    {
       "AGENCY_CODE": "1117",
       "RIN": "1117-AB87",
       "TITLE": "Extension of Reexportation Period",
@@ -634,6 +703,29 @@
       "LEGAL_DEADLINE": "None",
       "DATE_COMPLETED": "2026-08-27",
       "DECISION": "Consistent with Change",
+      "MAJOR": "No",
+      "HOMELAND_SECURITY": "Yes",
+      "INTERNATIONAL_IMPACTS": "Yes",
+      "HEALTH_CARE_ACT": "No",
+      "DODD_FRANK_ACT": "No",
+      "PANDEMIC_RESPONSE": "No",
+      "UNFUNDED_MANDATES": "No",
+      "FEDERALISM_IMPLICATIONS": "No",
+      "TCJA": "No",
+      "REGULATORY_FLEXIBILITY_ANALYSIS": "No",
+      "SMALL_ENTITIES_AFFECTED": "No",
+      "DATE_PUBLISHED": ""
+    },
+    {
+      "AGENCY_CODE": "1400",
+      "RIN": "1400-AG38",
+      "TITLE": "International Traffic in Arms Regulations: Syria Country Policy Revision",
+      "STAGE": "Final Rule",
+      "ECONOMICALLY_SIGNIFICANT": "No",
+      "DATE_RECEIVED": "2026-09-18",
+      "LEGAL_DEADLINE": "None",
+      "DATE_COMPLETED": "2026-09-21",
+      "DECISION": "Consistent without Change",
       "MAJOR": "No",
       "HOMELAND_SECURITY": "Yes",
       "INTERNATIONAL_IMPACTS": "Yes",
@@ -1404,7 +1496,7 @@
       "TCJA": "No",
       "REGULATORY_FLEXIBILITY_ANALYSIS": "Businesses",
       "SMALL_ENTITIES_AFFECTED": "",
-      "DATE_PUBLISHED": ""
+      "DATE_PUBLISHED": "2026-09-21"
     },
     {
       "AGENCY_CODE": "3235",
@@ -1427,7 +1519,7 @@
       "TCJA": "No",
       "REGULATORY_FLEXIBILITY_ANALYSIS": "Undetermined",
       "SMALL_ENTITIES_AFFECTED": "",
-      "DATE_PUBLISHED": ""
+      "DATE_PUBLISHED": "2026-09-21"
     },
     {
       "AGENCY_CODE": "3235",
@@ -1450,7 +1542,7 @@
       "TCJA": "No",
       "REGULATORY_FLEXIBILITY_ANALYSIS": "Businesses",
       "SMALL_ENTITIES_AFFECTED": "",
-      "DATE_PUBLISHED": ""
+      "DATE_PUBLISHED": "2026-09-10"
     },
     {
       "AGENCY_CODE": "3245",
