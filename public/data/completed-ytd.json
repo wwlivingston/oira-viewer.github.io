@@ -1,7 +1,7 @@
 {
   "source": "EO_RULE_COMPLETED_YTD.xml",
-  "generated_at": "2026-10-17T15:15:56.283Z",
-  "count": 708,
+  "generated_at": "2026-10-18T15:37:26.460Z",
+  "count": 709,
   "rules": [
     {
       "AGENCY_CODE": "0331",
@@ -483,6 +483,29 @@
       "FEDERALISM_IMPLICATIONS": "No",
       "TCJA": "No",
       "REGULATORY_FLEXIBILITY_ANALYSIS": "Businesses",
+      "SMALL_ENTITIES_AFFECTED": "",
+      "DATE_PUBLISHED": ""
+    },
+    {
+      "AGENCY_CODE": "0584",
+      "RIN": "0584-AE99",
+      "TITLE": "Enhancing Electronic Benefit Transfer (EBT) Card Security Measures",
+      "STAGE": "Proposed Rule",
+      "ECONOMICALLY_SIGNIFICANT": "No",
+      "DATE_RECEIVED": "2026-08-21",
+      "LEGAL_DEADLINE": "None",
+      "DATE_COMPLETED": "2026-10-16",
+      "DECISION": "Consistent with Change",
+      "MAJOR": "Yes",
+      "HOMELAND_SECURITY": "No",
+      "INTERNATIONAL_IMPACTS": "No",
+      "HEALTH_CARE_ACT": "No",
+      "DODD_FRANK_ACT": "No",
+      "PANDEMIC_RESPONSE": "No",
+      "UNFUNDED_MANDATES": "No",
+      "FEDERALISM_IMPLICATIONS": "No",
+      "TCJA": "No",
+      "REGULATORY_FLEXIBILITY_ANALYSIS": "Undetermined",
       "SMALL_ENTITIES_AFFECTED": "",
       "DATE_PUBLISHED": ""
     },
