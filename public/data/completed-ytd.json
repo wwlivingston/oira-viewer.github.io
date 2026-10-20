@@ -1,7 +1,7 @@
 {
   "source": "EO_RULE_COMPLETED_YTD.xml",
-  "generated_at": "2026-10-19T18:32:43.355Z",
-  "count": 709,
+  "generated_at": "2026-10-20T16:35:38.440Z",
+  "count": 711,
   "rules": [
     {
       "AGENCY_CODE": "0331",
@@ -1795,6 +1795,29 @@
       "TCJA": "No",
       "REGULATORY_FLEXIBILITY_ANALYSIS": "Undetermined",
       "SMALL_ENTITIES_AFFECTED": "No",
+      "DATE_PUBLISHED": ""
+    },
+    {
+      "AGENCY_CODE": "0910",
+      "RIN": "0910-AJ03",
+      "TITLE": "Requirements For Additional Traceability Records For Certain Foods: Compliance Date Extension",
+      "STAGE": "Final Rule",
+      "ECONOMICALLY_SIGNIFICANT": "No",
+      "DATE_RECEIVED": "2026-06-03",
+      "LEGAL_DEADLINE": "None",
+      "DATE_COMPLETED": "2026-10-19",
+      "DECISION": "Consistent with Change",
+      "MAJOR": "Yes",
+      "HOMELAND_SECURITY": "No",
+      "INTERNATIONAL_IMPACTS": "No",
+      "HEALTH_CARE_ACT": "No",
+      "DODD_FRANK_ACT": "No",
+      "PANDEMIC_RESPONSE": "No",
+      "UNFUNDED_MANDATES": "No",
+      "FEDERALISM_IMPLICATIONS": "No",
+      "TCJA": "No",
+      "REGULATORY_FLEXIBILITY_ANALYSIS": "Undetermined",
+      "SMALL_ENTITIES_AFFECTED": "",
       "DATE_PUBLISHED": ""
     },
     {
@@ -4256,6 +4279,29 @@
       "TCJA": "No",
       "REGULATORY_FLEXIBILITY_ANALYSIS": "Undetermined",
       "SMALL_ENTITIES_AFFECTED": "",
+      "DATE_PUBLISHED": ""
+    },
+    {
+      "AGENCY_CODE": "0955",
+      "RIN": "0955-AA09",
+      "TITLE": "Health Data, Technology, and Interoperability: ASTP/ONC Deregulatory Actions to Unleash Prosperity",
+      "STAGE": "Final Rule",
+      "ECONOMICALLY_SIGNIFICANT": "No",
+      "DATE_RECEIVED": "2026-07-28",
+      "LEGAL_DEADLINE": "None",
+      "DATE_COMPLETED": "2026-10-19",
+      "DECISION": "Consistent with Change",
+      "MAJOR": "Yes",
+      "HOMELAND_SECURITY": "No",
+      "INTERNATIONAL_IMPACTS": "No",
+      "HEALTH_CARE_ACT": "No",
+      "DODD_FRANK_ACT": "No",
+      "PANDEMIC_RESPONSE": "No",
+      "UNFUNDED_MANDATES": "No",
+      "FEDERALISM_IMPLICATIONS": "No",
+      "TCJA": "No",
+      "REGULATORY_FLEXIBILITY_ANALYSIS": "Undetermined",
+      "SMALL_ENTITIES_AFFECTED": "Businesses",
       "DATE_PUBLISHED": ""
     },
     {
