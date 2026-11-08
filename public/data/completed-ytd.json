@@ -1,7 +1,7 @@
 {
   "source": "EO_RULE_COMPLETED_YTD.xml",
-  "generated_at": "2026-11-07T17:37:33.351Z",
-  "count": 782,
+  "generated_at": "2026-11-08T17:47:25.636Z",
+  "count": 783,
   "rules": [
     {
       "AGENCY_CODE": "0331",
@@ -783,6 +783,29 @@
       "TCJA": "No",
       "REGULATORY_FLEXIBILITY_ANALYSIS": "Undetermined",
       "SMALL_ENTITIES_AFFECTED": "No",
+      "DATE_PUBLISHED": ""
+    },
+    {
+      "AGENCY_CODE": "0596",
+      "RIN": "0596-AD75",
+      "TITLE": "Grazing and Livestock Use on the National Forest System",
+      "STAGE": "Proposed Rule",
+      "ECONOMICALLY_SIGNIFICANT": "No",
+      "DATE_RECEIVED": "2026-09-02",
+      "LEGAL_DEADLINE": "None",
+      "DATE_COMPLETED": "2026-11-06",
+      "DECISION": "Consistent with Change",
+      "MAJOR": "No",
+      "HOMELAND_SECURITY": "No",
+      "INTERNATIONAL_IMPACTS": "No",
+      "HEALTH_CARE_ACT": "No",
+      "DODD_FRANK_ACT": "No",
+      "PANDEMIC_RESPONSE": "No",
+      "UNFUNDED_MANDATES": "No",
+      "FEDERALISM_IMPLICATIONS": "No",
+      "TCJA": "No",
+      "REGULATORY_FLEXIBILITY_ANALYSIS": "No",
+      "SMALL_ENTITIES_AFFECTED": "",
       "DATE_PUBLISHED": ""
     },
     {
