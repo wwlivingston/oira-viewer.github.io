@@ -1,7 +1,7 @@
 {
   "source": "EO_RULE_COMPLETED_YTD.xml",
-  "generated_at": "2026-11-19T20:15:50.939Z",
-  "count": 805,
+  "generated_at": "2026-11-20T19:47:51.946Z",
+  "count": 807,
   "rules": [
     {
       "AGENCY_CODE": "0331",
@@ -13321,6 +13321,29 @@
       "DATE_PUBLISHED": "2026-07-06"
     },
     {
+      "AGENCY_CODE": "2700",
+      "RIN": "2700-AE91",
+      "TITLE": "Procedures for Implementing the Freedom of Information Act (FOIA)",
+      "STAGE": "Final Rule",
+      "ECONOMICALLY_SIGNIFICANT": "No",
+      "DATE_RECEIVED": "2026-10-07",
+      "LEGAL_DEADLINE": "None",
+      "DATE_COMPLETED": "2026-11-19",
+      "DECISION": "Consistent with Change",
+      "MAJOR": "No",
+      "HOMELAND_SECURITY": "No",
+      "INTERNATIONAL_IMPACTS": "No",
+      "HEALTH_CARE_ACT": "No",
+      "DODD_FRANK_ACT": "No",
+      "PANDEMIC_RESPONSE": "No",
+      "UNFUNDED_MANDATES": "No",
+      "FEDERALISM_IMPLICATIONS": "No",
+      "TCJA": "No",
+      "REGULATORY_FLEXIBILITY_ANALYSIS": "No",
+      "SMALL_ENTITIES_AFFECTED": "No",
+      "DATE_PUBLISHED": ""
+    },
+    {
       "AGENCY_CODE": "2900",
       "RIN": "2900-AS25",
       "TITLE": "Updates to Waiver of Charges for Copayments",
@@ -17781,6 +17804,29 @@
       "REGULATORY_FLEXIBILITY_ANALYSIS": "Undetermined",
       "SMALL_ENTITIES_AFFECTED": "",
       "DATE_PUBLISHED": "2026-06-17"
+    },
+    {
+      "AGENCY_CODE": "3235",
+      "RIN": "3235-AN54",
+      "TITLE": "Evaluating the Consolidated Audit Trail",
+      "STAGE": "Proposed Rule",
+      "ECONOMICALLY_SIGNIFICANT": "No",
+      "DATE_RECEIVED": "2026-10-26",
+      "LEGAL_DEADLINE": "None",
+      "DATE_COMPLETED": "2026-11-18",
+      "DECISION": "Consistent with Change",
+      "MAJOR": "Yes",
+      "HOMELAND_SECURITY": "No",
+      "INTERNATIONAL_IMPACTS": "No",
+      "HEALTH_CARE_ACT": "No",
+      "DODD_FRANK_ACT": "No",
+      "PANDEMIC_RESPONSE": "No",
+      "UNFUNDED_MANDATES": "No",
+      "FEDERALISM_IMPLICATIONS": "No",
+      "TCJA": "No",
+      "REGULATORY_FLEXIBILITY_ANALYSIS": "No",
+      "SMALL_ENTITIES_AFFECTED": "",
+      "DATE_PUBLISHED": ""
     },
     {
       "AGENCY_CODE": "3235",
